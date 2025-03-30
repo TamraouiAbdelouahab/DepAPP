@@ -7,6 +7,8 @@
     <title>Soli-Todo</title>
 </head>
 <body>
-    <h1>Soli-Todo</h1>
+    <div class="h-screen flex justify-center items-center">
+        <p class="text-3xl font-bold">Hello Ikram</p>
+    </div>
 </body>
 </html>

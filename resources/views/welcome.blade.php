@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="h-screen flex justify-center items-center">
-        <p class="text-3xl font-bold text-red-500">Hello Ikram</p>
+        <p class="text-3xl font-bold">Hello World</p>
     </div>
 </body>
 </html>

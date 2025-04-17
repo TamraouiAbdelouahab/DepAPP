@@ -17,7 +17,6 @@ return new class extends Migration
             $table->text('description');
             $table->boolean('status')->default(false);
             $table->boolean('important')->default(false);
-            $table->boolean('priorite');
             $table->date('creationDate');
             $table->string('priorite');
             $table->date('dueDate')->nullable();

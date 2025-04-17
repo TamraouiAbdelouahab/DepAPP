@@ -21,6 +21,7 @@ class TaskSeeder extends Seeder
                 'status' => false,
                 'important' => true,
                 'creationDate' => now(),
+                'priorite' => "Basse",
                 'dueDate' => now()->addDays(2),
                 'tasklist_id' => $taskList->id
             ],
@@ -30,6 +31,7 @@ class TaskSeeder extends Seeder
                 'status' => false,
                 'important' => false,
                 'creationDate' => now(),
+                'priorite' => "Basse",
                 'dueDate' => now()->addDays(5),
                 'task_list_id' => $taskList->id
             ]

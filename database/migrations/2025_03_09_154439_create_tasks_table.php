@@ -19,6 +19,7 @@ return new class extends Migration
             $table->boolean('important')->default(false);
             $table->boolean('priorite');
             $table->date('creationDate');
+            $table->string('priorite');
             $table->date('dueDate')->nullable();
             $table->foreignId('tasklist_id')->constrained()->onDelete('cascade');
             $table->timestamps();

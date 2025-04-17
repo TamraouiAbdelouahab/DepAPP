@@ -27,6 +27,7 @@ class TaskRequest extends FormRequest
             'creationDate' => 'required|date',
             'status' => 'boolean',
             'important' => 'boolean',
+            'priorite' => 'required',
             'dueDate' => 'date|after:creationDate',
             'tasklist_id' => 'required|exists:tasklists,id',
         ];
